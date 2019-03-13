@@ -6,15 +6,15 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: resolve(__dirname, 'dist')
+    path: resolve(__dirname, '../dist')
   },
   module: {
     rules: [
       {
         test: /\.txt$/,
         use: [
-          './loader/reverse-loader.js',
-          './loader/uppercase-loader.js'
+          './loader/uppercase-loader.js',
+          './loader/reverse-loader.js'
         ]
       }
     ]

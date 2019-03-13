@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/yang657850144/webpack-simple-loader#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
